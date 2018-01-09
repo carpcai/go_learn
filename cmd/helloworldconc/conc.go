@@ -23,6 +23,4 @@ func printHelloWorld(i int, ch chan string){
 		ch <- fmt.Sprintf("Hello world from goroutine  %d !\n",
 			i)
 	}
-
-
 }
